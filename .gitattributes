@@ -1,0 +1,7 @@
+# Forçar LF no repositório (evita que arquivos sejam convertidos automaticamente para CRLF no checkout)
+* text=auto
+# garantir LF para scripts e arquivos de código
+*.sh eol=lf
+*.ts eol=lf
+*.json eol=lf
+package.json eol=lf
